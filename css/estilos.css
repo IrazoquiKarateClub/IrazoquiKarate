@@ -1,0 +1,1135 @@
+
+     *{    
+            margin:  0px;
+            padding: 0px;
+            box-sizing: border-box;
+           
+            
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: rgba(236, 236, 236, 0.514);
+            font-family: 'Poppins', sans-serif;
+            width : 100%;
+
+        }
+
+        body::-webkit-scrollbar {
+            width: 16px;
+            background: rgb(250, 249, 249);
+        }
+        
+        body::-webkit-scrollbar-thumb {
+            background: hsla(221, 90%, 8%, 0.808);
+            border-radius: 25px;
+            border:4px solid rgb(250, 249, 249);
+        }
+        
+        body::-webkit-scrollbar-thumb:hover {
+            background: hsla(0, 1%, 76%, 0.808);
+        }
+        
+
+        a{
+            text-decoration: none;
+        }
+
+            header {
+                width:100%;
+                height: 750px;
+                background-image: linear-gradient(to top, rgba(20, 19, 19, 0.692) 0%, rgba(0, 7, 68, 0.781) 100%),url(../imagenes/LA\ VERDADERA.jpg);
+                background-position: center;
+                background-size: cover;
+                background-attachment:fixed;
+                display: flex;
+                flex-flow: column nowrap;
+                border-bottom:3px solid rgb(249, 249, 250);
+            }
+                   
+                    .menu{
+                        width: 100%;
+                        height: 70px;
+                        background: rgba(1, 3, 31, 0.521);
+                        display: flex;
+                        align-items: center;
+                        justify-content:space-around;
+                        position: fixed;
+                        top: 0;
+                        transition: top 0.5s;
+                        z-index: 1000;
+                       
+                    }
+                        .menu .btn-menu{
+                            display: none;
+                            color: #fff;
+                            text-decoration: none;
+                            font-size: 16px;
+                        }
+                        .img1 {
+                            height: 60px;
+                            width: 60px;
+                            margin-left: 60px;
+                            margin-top: 5px;
+                        }
+                        .logo  {
+                            flex:1 1 auto;
+                            }
+                                .logo a{
+                                    color: rgb(255, 255, 255);
+                                    font-size: 30px;
+                                }
+                                .logo a:hover {
+                                   color: hsla(205, 30%, 12%, 0.692);
+                                }
+                        .nav {
+                            flex:5 1 auto;
+                            }
+                                .nav a{
+                                    color: #fff;
+                                    font-size: 15px;
+                                    padding-left: 40px;
+                                    letter-spacing: 2px;
+                                    font-weight: 500;
+                                }
+                                .nav a>i {
+                                    margin-right: 10px;
+                                }
+                                .nav a:hover{
+                                    color: rgb(192, 194, 216);
+                                }
+                        .social {
+                            flex:1 1 auto;
+                            display: flex;
+                            }
+                                .social a{
+                                    font-size: 20px;
+                                    color: #fff;
+                                    padding-left: 40px;
+                                }
+                                .social a:hover {
+                                    color: rgb(192, 194, 216);
+                                }
+
+
+                    .texto-principal {
+                       /* background: orange;*/
+                       height: 580px;
+                       display: block;
+                       align-items: center;
+                       margin-top: 150px;
+                    }
+                        h1 {
+                            font-family: 'Oswald', sans-serif;
+                            font-size: 70px;
+                            color: rgb(247, 247, 235);
+                            font-weight: 600;
+                            text-align: center;
+                            line-height: 2;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-top:50px;
+                            margin-bottom: 0px;
+                            letter-spacing: 2px;
+                        }
+                        .h2 {
+                            font-size: 25px;
+                            color: hsl(0, 0%, 100%);
+                            text-align: center;
+                            line-height: 2;
+                            margin-left: auto;
+                            margin-right: auto;
+                            font-weight: 300;
+                            letter-spacing: 1px;
+                            margin-top:none ;
+                        }
+
+            .section {
+                background: rgba(236, 236, 236, 0.514);
+                box-sizing: border-box;
+                width: 100%;
+                
+                
+                
+            }
+                .articulos {
+                    box-sizing: border-box;
+                    
+                    
+                }
+                    .article {
+                        margin-top: 10px;
+                        padding-bottom: 20px;
+                        padding-top: 20px;
+                        display: flex;
+                        box-sizing: border-box;
+                        
+                        
+                        
+                    }
+                        .img {
+                            
+                            height:250px;
+                            width: 250px;
+                            border-top-right-radius:50% ;
+                            border-bottom-left-radius:  50%;
+                            border-bottom-right-radius: 50%;
+                            box-shadow: 10px 10px 20px rgb(124, 124, 124);
+                            margin-right: 250px;
+                            margin-left: 100px;
+                            margin-bottom: 100px;
+                            margin-top: 10px
+                        }
+                        
+                    
+                        .informacion {
+                            
+                            width: auto;
+                            display: block;
+                            height: 350px;
+                            margin-left: 200px;
+                            margin-right: 200px;
+                            margin-top: 30px;
+                            padding-left: 30px;
+                            padding-right: 30px;
+                            color: hsl(248, 12%, 13%);
+                            box-sizing: border-box;
+                        }
+                            .informacion h2{
+                                font-size: 30px;
+                                text-align: center;
+                                margin-top: 100px;
+                                font-weight: 500;
+                                margin-bottom: 30px;
+                                letter-spacing: 2px;
+                                color: hsla(221, 90%, 8%, 0.884);
+                            }
+                                .informacion p{
+                                    font-size: 16px;
+                                    font-weight: 300;
+                                    letter-spacing: 1px;
+                                    text-align: center;
+                                }
+                                    .VerMas {
+                                        display: inline-block;
+                                        width: 100px;
+                                        height: auto;
+
+                                    }
+                                        .VerMas:hover {
+                                            background: hsl(0, 97%, 39%);
+                                            text-transform: uppercase;
+                                            text-align: center;
+                                            color: #fff;
+                                        }
+                                
+
+
+                    .informacion1 {
+                        
+                        display:flex;  
+                        box-sizing: border-box;
+                    }
+
+                        .informacion2{
+                            
+                            width: auto;
+                            height: 350px;
+                            margin-right: 20px;
+                            margin-left: 225px;
+                            margin-top: 20px;
+                            color: hsl(248, 12%, 13%);
+                        }
+                            .informacion2 h2{
+
+                                font-size: 30px;
+                                font-weight: 500;
+                                letter-spacing: 2px;
+                                text-align: center;
+                                margin-bottom: 30px;
+                                color: hsla(221, 90%, 8%, 0.884);
+                            }
+                                .informacion2 p{
+                                    font-size: 16px;
+                                    font-weight: 300;
+                                    letter-spacing: 1px;
+                                    text-align: center;
+                                }
+                        .article1{
+                            flex: 1 1 45%;
+                        }
+                    
+                
+            .section1 {
+                background-image: linear-gradient(to top, rgba(20, 19, 19, 0.836) 0%, rgba(1, 6, 49, 0.856) 100%), url(../imagenes/juntos_auto_x2.png);
+                background-position: center;
+                background-size: cover;
+                background-attachment: fixed;
+                object-fit: cover;
+                width: 100%;
+                height: 600px;
+                padding-top: 100px;
+                
+            }   
+                .sec {
+                    font-size: 35px;
+                    font-weight: 400;
+                    text-align: center;
+                    margin-top: 50px;
+                    margin-bottom: 100px;
+                    letter-spacing: 2px;
+                    color: hsl(0, 0%, 100%);
+                    box-sizing: border-box;
+    
+                    
+                }
+                .secciones {
+                    /*background: grey;*/
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    margin-bottom: 5px;
+                    box-sizing: border-box;
+                    width: 100%; 
+                    color: #fff; 
+                    letter-spacing: 2px;
+                }   
+                        .karate {
+                            text-align: center;
+                            width: 30%;
+                            height: 100%;
+                        }
+                        .KickBoxing {
+                            text-align: center;
+                            width: 30%;
+                            height:100;
+                            
+                            
+                        }
+                        .DefensaPersonal{
+                            text-align: center;
+                            width: 30%;
+                            height: 100%;
+                            
+                            
+                        }
+                            .images {
+                                height: 110px;
+                                width: 100%;
+                                width: auto;
+                                
+                            }
+                
+                    
+                    .kara {
+                        flex: 1 1 30%;
+                        padding-bottom: 25px;
+                        font-weight: 400;
+                        font-size: 17px;
+                        margin-top: 5px;
+                        padding-right: 5px;
+                        box-sizing: border-box;
+                    }
+                    .kick {
+                        flex: 1 1 30%;
+                        padding-bottom: 25px;
+                        font-weight: 400;
+                        font-size: 17px;
+                        margin-top: 5px;
+                        padding-right: 15px;
+                        box-sizing: border-box;
+                    }
+                    .defe {
+                        flex: 1 1 30%;
+                        padding-bottom: 25px;
+                        font-weight: 400;
+                        font-size: 17px;
+                        margin-top: 5px;
+                        box-sizing: border-box;
+                    }
+
+
+                    /*contacto*/
+                    .map {
+                        background-image:linear-gradient(to top, rgba(0, 0, 0, 0.753) 0%, rgba(0, 6, 58, 0.87) 100%), url(../imagenes/Dojo_de_karate.png);
+                        background-position: center;
+                        background-size: cover;
+                        background-attachment: fixed;
+                        object-fit: cover;
+                        width: 100%;
+                        height: 500px;
+                        display: flex;
+                        justify-content:space-evenly;
+                        align-items: center;
+                        box-sizing: border-box;
+                    }
+                        .uno {
+                            display: flex;
+                            width: 40%;
+                            height: auto;
+                        }
+                        .dos {
+                            display: block;
+                            width: 40%;
+                            height: auto;
+                            color: #fff;
+                        }
+                            .dos h2{
+                                vertical-align: top;
+                                font-size: 40PX;
+                                font-weight: 500;
+                                margin: 20px 0;
+                                letter-spacing: 2px;
+                    
+                            }
+                            .dos p{
+                                font-size: 20px;
+                                letter-spacing: 1px;
+                                font-weight: 300;
+                                margin-bottom: 10px;
+                            }
+                            .dos p>i {
+                                font-size: 20px;
+                                margin-right: 10px;
+                            }
+            
+
+
+            .footer {
+                background: #000;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-sizing: border-box;
+            }
+                .pie {
+                    margin: 30px;
+                    display: block;
+                    color: rgb(158, 158, 158);
+                    text-align: center;
+                    width: 40%;
+                    height: auto;
+                }
+                .pie h3 {
+                    font-size: 15px;
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                }
+                    .pie a>i {
+                        color: rgb(158, 158, 158);
+                        font-size: 25px;
+                        margin: 10px 10px;
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1224px) {
+    
+    /*menu y header*/
+        .nav a{
+            font-size: 14px;
+            padding-left: 35px;
+        }
+        .nav i{
+            font-size: 15px;
+        }
+        .social a{
+            font-size: 18px;
+            margin-right: 10px;
+            padding-left: 20px;
+        }
+        h1 {
+            font-size: 70px;
+        }
+        .h2 {
+            font-size: 25px;
+        }
+        .img1 {
+            height: 45px;
+            width: 45px;
+            margin-left:30px;
+        }
+
+
+    /*texto de la pagina*/
+    
+        .img {
+            height: 250px;
+            width: 250px;
+            margin-right: 100px;
+        }
+        .informacion{
+            display: block;
+            margin-left:0px;
+            margin-right:0px;
+            width: 100%;
+        }
+
+        .informacion2{                 
+            height: 350px;
+            margin-top: 0px;
+            padding-left: 100px;
+            padding-right: 0px;
+            color: hsl(248, 12%, 13%);
+            box-sizing: border-box;
+            margin-left: 0px;
+            margin-right: 0px;
+            width: 100%;
+        }
+        .informacion p{
+            font-size: 15px;
+            padding: 0px 100px;
+        }
+        .informacion h2{
+            font-size: 28px;
+        }
+        .informacion2 p{
+            font-size: 15px;
+            padding: 0px 0px;
+        }
+        .informacion2 h2 {
+            font-size: 28px;
+        }
+
+
+    /*nos especializamos en karate y mas*/
+        .section1 {
+            height: 500px;
+            padding-top:30px;
+            padding-bottom: 30px;
+        }
+        .sec {
+            font-size: 35px;
+           margin-top: 50px;
+        }
+        .images {
+            height: 100px;
+        }
+    
+    
+    /* Portafolio */
+        .lon {
+            display: none;
+        }
+
+
+    /*mensaje motivador*/
+        .arte {
+            padding: 200px 30px;
+        }
+        .arte h2{
+            font-size:20px;
+        }
+
+
+    /*contacto*/
+        .uno {
+            display: flex;
+            width: 45%;
+        }
+        .dos h2{
+            font-size: 35px;
+        }
+        .dos p{
+            font-size: 20px;
+        }
+    
+    /*footer*/
+    .pie{
+        margin: 30px 0px;
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 950px) {
+
+     /*menu y header*/
+     header {
+        height: 650px;
+    }
+    .nav a{
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    .nav i{
+        font-size: 13px;
+    }
+    .social a{
+        font-size: 16px;
+        margin-right: 20px;
+        padding-left: 5px;
+    }
+    h1 {
+        font-size: 65px;
+    }
+    .h2 {
+        font-size: 20px;
+    }
+    .img1 {
+        height: 45px;
+        width: 45px;
+        margin-left:30px;
+    }
+
+    /*la informacion del texto*/
+    .img {
+        display: none;
+    }
+    .informacion{
+        display: block;
+        margin-left:0px;
+        margin-right:0px;
+        width: 100%;
+    }
+    .article1{
+        display: none;
+    }
+    .informacion2{                 
+        height: 350px;
+        justify-content: center;
+        text-align: center;
+        color: hsl(248, 12%, 13%);
+        box-sizing: border-box;
+        margin: 0px 30px;
+        width: 100%;
+        padding: 0px;
+    }
+    .informacion p{
+        width: 100%;
+        font-size: 16px;
+        padding: 0px 100px;
+    }
+    .informacion h2{
+        font-size: 26px;
+    }
+    .informacion2 p{
+        font-size: 16px;
+        padding: 0px 100px;
+    }
+    .informacion2 h2 {
+        font-size: 26px;
+    }
+/* galeria o portafolio */
+    .lo {
+        font-size: 50px;
+    }
+
+    /*karate y mas*/
+
+    .section1 {
+        height: 400px;
+        padding-top:30px;
+        padding-bottom: 30px;
+    }
+    .sec {
+        font-size: 30px;
+       margin-top: 50px;
+    }
+    .images {
+        height: 90px;
+    }
+    .kara {
+        font-size: 17px;
+    }
+    .kick {
+        font-size: 17px;
+    }
+    .defe {
+        font-size: 17px;
+    }
+
+
+     /*mensaje motivador*/
+     .arte {
+        padding: 175px 30px;
+    }
+    .arte h2{
+        font-size:23px;
+    }
+
+
+    /*contacto*/
+        .uno {
+            display: flex;
+            width: 45%;
+        }
+        .dos h2{
+            font-size: 30px;
+        }
+        .dos p{
+            font-size: 15px;
+        }
+
+        
+    /*footer*/
+    .pie{
+        margin: 30px 0px;
+        width: 70%;
+    }
+        .pie h3{
+            font-size: 13px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 690px) {
+    /*menu y header*/
+    header {
+       height: 590px;
+   }
+   .nav i{
+       font-size: 30px;
+       margin-left: 1px;
+   }
+   .social {
+       display: none;
+   }
+  .span {
+      display: none;
+  }
+   h1 {
+       margin: 5px;
+       font-size: 50px;
+   }
+   .h2 {
+       margin: 5px;
+       font-size: 20px;
+   }
+   .img1 {
+       height: 50px;
+       width: 50px;
+       margin-left:30px;
+       margin-right: 30px;
+   }
+
+   /*la informacion del texto*/
+   .article1 {
+       display: none;
+   }
+   .img {
+       display: none;
+   }
+   .informacion{
+       height: auto;
+       display: block;
+       margin-left:0px;
+       margin-right:0px;
+       width: 100%;
+   }
+
+   .informacion2{                 
+        width: 100%;
+        display: block;
+        height: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: hsl(248, 12%, 13%);
+        box-sizing: border-box;
+   }
+   .informacion p{
+       width: 100%;
+       font-size: 15px;
+       padding: 0px 0px;
+   }
+   .informacion h2{
+       font-size: 20px;
+       margin-top: 30px;
+   }
+   .informacion2 p{
+       margin-bottom: 0px;
+       font-size: 15px;
+       padding: 0px 0px;
+   }
+   .informacion2 h2 {
+       margin-top: 30px;
+       font-size: 20px;
+   }
+
+   /*karate y mas*/
+   .section1{
+       height: auto;
+   }
+   .sec {
+    text-align: center;
+    margin: auto;
+    padding: 0px 50px;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+   }
+   .secciones { 
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       display: block;
+   }
+
+   .bloque {
+       width: auto;
+       text-align: center;
+       margin: auto;
+       display: block;
+   }
+   .images {
+       height: 150px;
+   }
+   .kara {
+        margin: 0px;
+        padding:30px 0px;
+        font-size: 16px;
+   }
+   .kick {
+        margin: 0px;
+        padding:30px 0px;
+        font-size: 16px;
+        
+   }
+   .defe {
+        margin: 0px;
+        padding:30px 0px;
+        font-size: 16px;
+   }
+   /*portafolio*/
+   .lo{
+       font-size: 50px;
+   }
+
+    /*mensaje motivador*/
+    .arte {
+        margin: auto;
+       padding: 125px 5px;
+   }
+   .arte h2{
+       margin: auto;
+       text-align: center;
+       font-size:20px;
+   }
+
+
+   /*contacto*/
+    .map {
+        display: block;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .uno {
+       width: auto;
+       margin: 20px;
+    }
+    .dos {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display:block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .dos h2{
+        font-size: 25px;
+    }
+    .dos p{
+        font-size: 15px;
+    }
+
+       
+   /*footer*/
+   .pie{
+       margin: 30px 0px;
+       width: 70%;
+   }
+ 
+       .pie h3{
+           font-size: 13px;
+       }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 424px) {
+    /*menu y header*/
+   .nav a{
+       padding-left: 5px;
+   }
+    .nav i{
+       padding: 5px;
+       font-size: 30px;
+       margin-left: 1px;
+   }
+ 
+   h1 {
+       margin-top: 5px;
+       font-size: 45px;
+   }
+   .h2 {
+       font-size: 20px;
+       margin: 0px 5px;
+   }
+   .img1 {
+       height: 50px;
+       width: 50px;
+       margin-left:20px;
+       margin-right: 30px;
+   }
+
+   
+   /*karate y mas*/
+   .sec {
+       padding: 0px 40px;
+       font-size: 25px;
+   }
+   /*portafolio*/
+   .lo{
+       font-size: 40px;
+   }
+
+    /*mensaje motivador*/
+    .arte {
+       padding: 125px 0px;
+   }
+   .arte h2{
+       text-align: center;
+   }
+
+
+   /*contacto*/
+    .map {
+        display: block;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .uno {
+       width: auto;
+       margin: 20px;
+    }
+    .dos {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display:block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .dos h2{
+        font-size: 25px;
+    }
+    .dos p{
+        font-size: 15px;
+    }
+
+       
+   /*footer*/
+   .pie{
+       margin: 30px 0px;
+       width: 70%;
+   }
+
+       .pie h3{
+           font-size: 12px;}
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 374px) {
+    /*menu y header*/
+    .logo {
+        margin-right: 10px;
+    }
+
+   .nav i{
+       padding: 5px;
+       font-size: 30px;
+       margin-left: 1px;
+   }
+  
+   h1 {
+       font-size: 40px;
+   }
+   .h2 {
+       font-size: 18px;
+       margin: 0px 5px;
+   }
+   .img1 {
+       height: 40px;
+       width: 40px;
+       margin-left:5px;
+       margin-right: 5px;
+   }
+
+   
+   /*karate y mas*/
+  
+   .kara {
+  
+        font-size: 11px;
+        letter-spacing: 1px;
+   }
+   .kick {
+        padding-left: 5px;
+        font-size: 11px;
+        letter-spacing: 1px;
+        
+   }
+   .defe {
+       font-size: 11px;
+       letter-spacing: 1px;
+   }
+   .images {
+    height: 50px;
+    width: 50px;
+}
+
+   /*portafolio*/
+   .lo{
+       font-size: 25px;
+   }
+   
+    /*mensaje motivador*/
+   .arte h2{
+       text-align: center;
+       font-size:18px;
+   }
+
+
+   /*contacto*/
+    .map {
+        display: block;
+        height: auto;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .uno {
+       width: auto;
+       margin: 10px;
+    }
+
+
+       
+   /*footer*/
+   .pie{
+       margin: 30px 0px;
+       width: 70%;
+   }
+       .pie h3{
+           font-size: 12px;
+       }
+
+
+}
+

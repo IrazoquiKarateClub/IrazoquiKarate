@@ -1,0 +1,49 @@
+.float{
+	position:fixed;
+	padding: 0px 30px;
+	width:auto;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	border-radius: 60px;
+	background-color:#25d366;
+	color:#FFF;
+	text-align:center;
+  	font-size:30px;
+	box-shadow: 5px 5px 10px rgba(29, 29, 29, 0.479);
+  z-index:100;
+  align-items: center;
+  justify-content: space-between;
+}
+
+	.float span {
+		margin: auto;
+		margin-left: 10px;
+		text-align: center;
+		font-size: 20px;
+	}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+
+
+@media only screen and (max-width: 950px){
+
+	.float {
+		padding: 0px;
+		width: 60px;
+		border-radius: 50%;
+	}
+	.float span{
+		display: none;
+	}
+
+}
